@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="../css/belajar_css.css" >
+</head>
+<body>
+    <main>
+    <img src="https://iticm.ac.id/wp-content/uploads/2022/05/sejarah-1024x581.jpg" alt="iticm">
+    <br>
+    <h2>Formulir Pendaftaran Mengguanakan Prinsip Table</h2>
+    <form action="/daftar" method="post">
+    <table>
+            <div>
+                <tr>
+                    <th><label for="name">Nama</label></th>
+                    <td><input type="text" placeholder="name" id="name" name="name" required></td>
+                </tr>
+            </div>
+           
+            
+            <div>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input type="text" placeholder="email" id="email" name="email" required></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th><label for="phone">Phone</label></th>
+                    <td><input type="tel" placeholder="phone" id="phone" name="phone" required></td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <th><label for="password">Phone</label></th>
+                    <td><input type="password" placeholder="password" id="password" name="password" required></td>
+                </tr>
+            </div>
+            <div>
+                <th rowspan="3"><label for="Jenis">Gender</label></th>
+                <td><input type="radio" name="Jenis" value="Male">Laki-laki</td>
+                
+            </div>
+            <div>
+                <tr>
+                    <td><input type="radio" name="Jenis" value="female">Perempuan</td>
+                </tr>
+            </div>
+            <div>
+                <tr>
+                    <td><input type="radio" name="Jenis" value="takde">Nothing</td>
+                </tr>
+            </div>
+            <!-- menu dropdown -->
+            <div>
+                <tr>
+                    <th><label for="education">Education</label></th>
+                    <td><select name="education" id="education">
+                        <option value="Kindergarten">Kindergarten</option>
+                        <option value="Elementary School">Elementary School</option>
+                        <option value="Junior High School">Junior High School</option>
+                        <option value="Senior High School">Senior High School</option>
+                        <option value="College">College</option>
+                    </select></td>
+
+                </tr>
+            </div>
+        </table>
+        <br>
+             <label for="notes">Note</label>
+        <div>
+                <textarea name="notes" id="notes" cols="50" rows="10"></textarea>
+        </div>
+    
+        <!-- ada pilihan secara otomatis yang dinamakan checked pada button radio -->
+        <!-- ada pilihan secara otomatis pada select yakni selected -->
+        
+       
+       <footer><input type="checkbox"><label for="setuju">saya setuju dengan pernyataan yang telah tertulis</label></footer> 
+ <button type="submit">Create</button>
+       <!-- validation -->
+       <!-- bisa menggunakan required -->
+       <!-- max min untuk number -->
+       <!-- maxlength dan minlength untuk karakter -->
+       <br>
+       <br>
+       <hr>
+       <p>Pendidikan akan menjadi kebutuhan sepanjang hayat dan perguruan tinggi diyakini memiliki peran yang sangat strategis untuk mempersiapkan generasi penerus bangsa. Saat ini Indonesia sedang mengalami bonus demografi. Bonus demografi ini harus dikelola dengan baik agar dapat menghasilkan sumber daya manusia (SDM) yang unggul, terampil dan mandiri, yang dapat menjadi daya ungkit kesejahteraan masyarakat. Dalam era persaingan global seperti saat ini, daya saing suatu bangsa sangat ditentukan oleh kemampuannya dalam penguasaan ilmu pengetahuan dan teknologi (IPTEK). Penguasaan IPTEK yang rendah akan menjadi masalah yang serius dalam menghadapi era persaingan global yang sedang berlangsung dan akan terus dihadapi Indonesia di masa depan.
+    </p>
+<p>
+        SDM unggul yang mampu menguasai IPTEK dapat dibangun melalui pendidikan tinggi. Akan tetapi data menunjukkan bahwa angka partisipasi kasar (APK) pendidikan tinggi Indonesia saat ini tergolong masih sangat rendah, bahkan jika dibandingkan dengan negara-negara tetangga di ASEAN. Dalam kurun waktu 5 tahun terakhir, APK pendidikan tinggi Indonesia berada pada angka sekitar 30% [1]. Bandingkan dengan APK pendidikan tinggi di negara tetangga seperti Thailand yang telah mencapai 49%, Malaysia 43% dan Singapura bahkan 88% [2]. Nilai APK pendidikan tinggi yang besar menunjukkan bahwa masyarakat memiliki kemudahan akses untuk melanjutkan pendidikannya ke perguruan tinggi. Parameter ini juga dipakai sebagai penentu tingkat kualitas layanan pembelajaran di perguruan tinggi. Oleh sebab itu, Pemerintah Indonesia terus berupaya untuk meningkatkan APK pendidikan tinggi ini dan pada tahun 2024 ditargetkan telah mencapai angka 45% [3, 4]. Melihat data 5 tahun terakhir yang relatif tetap, angka 45% ini sepertinya sulit tercapai jika tidak ada langkah terobosan dan hanya menggantungkan pada Pemerintah.
+    </p>
+    <p>
+        
+        Untuk mendukung misi Pemerintah dalam meningkatkan APK ini, Yayasan Yatim Mandiri, yang selanjutnya akan disebut Yayasan, berinisiatif mendirikan perguruan tinggi swasta (PTS) yang bermutu. Sasaran utamanya adalah agar anak-anak dari kalangan yatim dan dhuafa memiliki akses pendidikan tinggi sehingga mereka mampu mandiri dan dapat meningkatkan taraf hidup dirinya dan keluarganya. Pada tahun 2016, sebagai langkah awal, Yayasan melakukan alih kelola sebuah sekolah tinggi di bawah Kementerian Agama, yang kemudian diberi nama Sekolah Tinggi Agama Islam An-Najah Indonesia Mandiri (STAINIM). STAINIM yang berdomisili di Sidoarjo dan menempati lahan seluas 3,4 Ha ini memiliki 2 program studi, yaitu: Ekonomi Syariah dan Manajemen Pendidikan Islam. Sejalan dengan itu, gedung 7 lantai, masjid berkapasitas 2600 jamaah dan fasilitas lain mulai dibangun di lahan tersebut. Pembangunan gedung dan fasilitas ini merupakan langkah strategis untuk menjawab tantangan ke depan pembangunan manusia seutuhnya di era yang berubah dengan cepat ini dengan tetap mengedepankan konsep rahmat bagi seluruh alam.</p>
+    </main>
+</body>
+</html>

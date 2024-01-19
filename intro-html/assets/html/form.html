@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            form ini
+        </title>
+    </head>
+    <body>
+        <h1>Formulir Daftar Hadir</h1>
+        <!-- placeholder digunakan untuk watermark tulisan -->
+        <form action="#" method="post">
+            <input type="text" placeholder="Nama">
+            <input type="date" placeholder="Tanggal Lahir">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="color">
+        </form>
+        <hr>
+        <h1>Formulir Daftar Hadir</h1>
+        <form action="#" method="post">
+            <!-- menggunakan label -->
+            <div>
+                <label for="Name">Nama Lengkap</label>
+                <input type="text" placeholder="Nama" id="Name">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Email" id="Email">
+            </div>
+
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" placeholder="Password" id="Password">
+                <input type="color">
+            </div>
+        </form>
+        <br>
+        <hr>
+        <h2>Formulir Pendaftaran Mengguanakan Prinsip Table</h2>
+        <form action="/daftar" method="get">
+        <table>
+                <div>
+                    <tr>
+                        <th><label for="name">Nama</label></th>
+                        <td><input type="text" placeholder="name" id="name" name="name" required></td>
+                    </tr>
+                </div>
+               
+                
+                <div>
+                    <tr>
+                        <th><label for="email">Email</label></th>
+                        <td><input type="text" placeholder="email" id="email" name="email" required></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th><label for="phone">Phone</label></th>
+                        <td><input type="text" placeholder="phone" id="phone" name="phone" required></td>
+                    </tr>
+                </div>
+        </table>
+       
+        <button type="submit">Create</button>
+    </form>
+    </body>
+</html>
